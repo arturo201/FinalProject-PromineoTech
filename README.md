@@ -1,6 +1,6 @@
 ## About the Project
 
-<img width="1000" alt="Screenshot 2023-08-16 at 8 13 29 AM" src="https://github.com/arturo201/SocialMediaConcept/assets/41337829/541b57c8-f9bd-4a9b-a238-5f0330c16376">
+<img width="900" alt="Screenshot 2023-08-16 at 8 13 29 AM" src="https://github.com/arturo201/SocialMediaConcept/assets/41337829/541b57c8-f9bd-4a9b-a238-5f0330c16376">
 
 <p>Test account was created to be able to login. You can also register to create an account. Once signed in, you're able to submit a picture in the Posts page. Mock API was used in this project.
 
@@ -25,15 +25,15 @@ User profiles
 ## Installation
 <ol>
 <li>Clone the repository</li>
-```bash
+```shell
 git clone https://github.com/yourusername/social-media-app.git
 ```
 <li>Go to the project directory</li>
-```console
+```shell
 cd social-media-app
-```bash
+```
 <li>Install dependencies</li>
-```console
+```shell
 npm install
 ```
 <p>this will install the project dependencies including React, Font Awesome, Bootstrap, and Axios: </p>
