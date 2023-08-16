@@ -36,7 +36,7 @@ User profiles
 ```
   npm install
 ```
-  <p> - this will install the project dependencies including React, Font Awesome, Bootstrap, and Axios: </p>
+      <p> - this will install the project dependencies including React, Font Awesome, Bootstrap, and Axios: </p>
 
 
 
