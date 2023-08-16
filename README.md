@@ -25,7 +25,7 @@ User profiles
 ## Installation
 
 Clone the repository
-```console
+```bash
   git clone https://github.com/yourusername/social-media-app.git
 ```
 Go to the project directory
