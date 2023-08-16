@@ -26,7 +26,7 @@ User profiles
 
 1. Clone the repository
 ```
-  git clone https://github.com/arturo201/social-media-app.git
+  git clone https://github.com/arturo201/https://github.com/arturo201/SocialMediaConcept.git
 ```
 2. Go to the project directory
 ```
