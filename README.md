@@ -23,21 +23,21 @@ User profiles
 </ul>
 
 ## Installation
-<ol>
-<li>Clone the repository</li>
+
+Clone the repository
 ```
   git clone https://github.com/yourusername/social-media-app.git
 ```
-<li>Go to the project directory</li>
+Go to the project directory
 ```
   cd social-media-app
 ```
-<li>Install dependencies</li>
+Install dependencies
 ```
   npm install
 ```
 <p>this will install the project dependencies including React, Font Awesome, Bootstrap, and Axios: </p>
-</ol>
+
 
 
 
