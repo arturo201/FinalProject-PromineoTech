@@ -13,29 +13,30 @@ User profiles
 </p>
 
 ## Technologies Used
-<p>
-This project leverages the following technologies:
+<p>This project leverages the following technologies:</p>
 
-React: A JavaScript library for building user interfaces.
-Font Awesome: Provides scalable vector icons that can be customized with CSS.
-Bootstrap: A front-end framework for developing responsive, mobile-first projects on the web.
-Axios: A promise-based HTTP client for the browser and Node.js.</p>
-
+<ul>
+<li>React: A JavaScript library for building user interfaces.</li>
+<li>Font Awesome: Provides scalable vector icons that can be customized with CSS.</li>
+<li>Bootstrap: A front-end framework for developing responsive, mobile-first projects on the web.</li>
+<li>Axios: A promise-based HTTP client for the browser and Node.js.</li>
+</ul>
 
 ## Installation
-
+<ol>
 <li>1. Clone the repository</li>
-```bash
+``` bash
 git clone https://github.com/yourusername/social-media-app.git
 ```
 <li>2. Go to the project directory</li>
-```bash
+``` bash
 cd social-media-app
 ```
 <li>3. Install dependencies</li>
-```bash
+``` bash
 npm install
 ```
+</ol>
 <p>this will install the project dependencies including React, Font Awesome, Bootstrap, and Axios: </p>
 
 
