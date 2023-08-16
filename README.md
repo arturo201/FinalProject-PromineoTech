@@ -24,15 +24,15 @@ User profiles
 
 ## Installation
 
-Clone the repository
-```bash
+1. Clone the repository
+```
   git clone https://github.com/yourusername/social-media-app.git
 ```
-Go to the project directory
+2. Go to the project directory
 ```
   cd social-media-app
 ```
-Install dependencies
+3. Install dependencies
 ```
   npm install
 ```
