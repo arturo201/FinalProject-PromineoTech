@@ -90,7 +90,13 @@ export default function App() {
     const storedUsername = localStorage.getItem("username");
     const storedPassword = localStorage.getItem("password");
 
-    if (inputUsername === storedUsername && inputPassword === storedPassword) {
+    const testAcct = "test1";
+    const testPass = "test123";
+
+    if (
+      (inputUsername === storedUsername && inputPassword === storedPassword) ||
+      (inputUsername === testAcct && inputPassword === testPass)
+    ) {
       setAuthenticated(true);
       navigate("/"); // navigate to home
     } else {
@@ -112,7 +118,7 @@ export default function App() {
 
     localStorage.setItem("username", username);
     localStorage.setItem("password", password);
-    setNotification('');
+    setNotification("");
   };
 
   const handleLike = (postId) => {
@@ -155,8 +161,8 @@ export default function App() {
   }
 
   const resetNotification = () => {
-    setNotification('');
-  }
+    setNotification("");
+  };
 
   return (
     <Router>
@@ -164,16 +170,17 @@ export default function App() {
       <Routes>
         <Route
           path="/login"
-          element={<Login onLogin={handleLogin} notification={notification} onResetNotification={resetNotification} />}
+          element={
+            <Login
+              onLogin={handleLogin}
+              notification={notification}
+              onResetNotification={resetNotification}
+            />
+          }
         />
         <Route
           path="/register"
-          element={
-            <Register
-              onRegister={handleRegistration}
-
-            />
-          }
+          element={<Register onRegister={handleRegistration} />}
         />
 
         <Route
@@ -182,7 +189,10 @@ export default function App() {
             <Home authenticated={authenticated} userProfile={userProfile} />
           }
         />
-        <Route path="/best-friend-profile" element={<BestFriendProfile users={userProfile} />} />
+        <Route
+          path="/best-friend-profile"
+          element={<BestFriendProfile users={userProfile} />}
+        />
 
         {authenticated && !loading && (
           <Route

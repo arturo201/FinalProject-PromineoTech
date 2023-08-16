@@ -27,6 +27,11 @@ const Login = ({ onLogin, notification, onResetNotification }) => {
       {notification && <p className="login-notification">{notification}</p>}
       <form className="login-form" onSubmit={handleSubmit}>
         <h2 className="login-title">Login</h2>
+        <p className="demo-acct">
+          Demo Account: <br />
+          Username: test1  <br />
+          Password: test123
+        </p>
         <input
           className="login-input"
           type="text"
